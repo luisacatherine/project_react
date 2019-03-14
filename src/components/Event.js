@@ -37,8 +37,8 @@ Event.propTypes = {
     startSale: PropTypes.string,
     startDate: PropTypes.string,
     endDate: PropTypes.string,
-    priceMin : PropTypes.string,
-    priceMax : PropTypes.string,
+    priceMin : PropTypes.number,
+    priceMax : PropTypes.number,
     longitude : PropTypes.string,
     latitude : PropTypes.string
 }
