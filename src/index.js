@@ -7,7 +7,6 @@ import { BrowserRouter } from 'react-router-dom';
 import { Provider } from 'unistore/react';
 import { store } from './store'
 
-// ReactDOM.render(<App />, document.getElementById('root'));
 
 const rootEl = document.getElementById('root');
 const render = Component => 

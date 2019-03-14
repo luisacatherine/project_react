@@ -9,6 +9,7 @@ import ActionMovies from "../pages/ActionMovies"
 import RomanceMovies from "../pages/RomanceMovies"
 import ComedyMovies from "../pages/ComedyMovies"
 import FictionMovies from "../pages/FictionMovies"
+import PagesFlight from "../pages/PagesFlight"
 import { connect } from "unistore/react";
 import { actions } from "../store";
 
@@ -22,6 +23,7 @@ const MainRoute = () => {
             <Route exact path="/romance" component={RomanceMovies}/>
             <Route exact path="/comedy" component={ComedyMovies}/>
             <Route exact path="/fiction" component={FictionMovies}/>
+            <Route exact path="/flights" component={PagesFlight}/>
             {/* <Route path="/sources/:source_name" component={Cnbc}/> */}
             <Route component={NotMatch}/>
         </Switch>
